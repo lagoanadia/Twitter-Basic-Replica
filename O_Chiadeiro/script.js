@@ -43,9 +43,9 @@ function crearPosts(texto, esPropio)
     let contador = document.createElement("div");
     contador.textContent = numLikes;
     post.appendChild(contador);
-    //Cada 10 segundos se añaden 3 likes 
+    //Cada 10 segundos se añaden X likes 
     setInterval(function GenerarLikes() {
-        numLikes += 3;
+        numLikes += Math.floor(Math.random() * 5) + 1;
         contador.textContent = numLikes;
     }, 10000);
    // Si el post fue "liked" se quitara el like sino se añadara 
