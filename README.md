@@ -35,3 +35,43 @@ The project was developed using **vanilla HTML, CSS, and JavaScript**, with no e
 - **CSS animations and transitions:** smooth hover effects on posts, like buttons, and the rotating logo.
 
 ## 📁 Project Structure
+Garden-Community/
+├── index.html        # Main markup and entry point
+├── style.css         # Visual styling and animations
+├── script.js         # Application logic and DOM handling
+├── logo.jpg          # Site logo
+└── 1.jpg – 12.jpg    # Profile picture assets
+## 🚀 Getting Started
+
+### Prerequisites
+
+A modern web browser (Chrome, Firefox, Edge, or Safari).
+
+### Installation
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/your-username/garden-community.git
+```
+2. Navigate into the project directory:
+```bash
+   cd garden-community
+```
+3. Open `index.html` in your browser.
+4. Enter a username when prompted to begin using the application.
+
+## 🔮 Possible Improvements
+
+- Persist posts and likes using `localStorage`.
+- Add timestamp metadata to each post.
+- Implement comment threads beneath posts.
+- Allow users to upload custom profile pictures.
+- Refactor into reusable components or migrate to a framework such as React.
+
+## 👤 Author
+
+Developed as part of the **DAM (Multi-platform Application Development)** curriculum.
+
+## 📄 License
+
+This project is released under the MIT License. See the `LICENSE` file for details.
